@@ -1,0 +1,52 @@
+.collapse.navbar-collapse > div > ul > li{
+    font-size: calc( 1.4 * var(--fs_16));
+    font-weight: 700;
+}
+
+.collapse.navbar-collapse > div > ul > li > a {
+    color: var(--Ligth_gray_blue);
+}
+
+#root > nav > div > div.collapse.navbar-collapse > 
+div > ul > li:nth-child(2){
+    padding: 0px 3rem;
+}
+
+.active{
+    color: var(--Ligth_black) !important;
+    font-weight: 900;
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+    #root > nav > div > div.collapse.navbar-collapse > 
+    div > ul > li:nth-child(2){
+        padding: 4px 0rem;
+    }
+    #root > nav > div > div.collapse.navbar-collapse > 
+    div > ul > li{
+        padding: 4px 0rem;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+    #root > nav > div > div.collapse.navbar-collapse > 
+    div > ul > li:nth-child(2){
+        padding: 4px 0rem;
+    }
+    #root > nav > div > div.collapse.navbar-collapse > 
+    div > ul > li{
+        padding: 4px 0rem;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 501px) {
+
+    #root > nav > div > div.collapse.navbar-collapse > 
+    div > ul > li:nth-child(2){
+        padding: 4px 0rem;
+    }
+    #root > nav > div > div.collapse.navbar-collapse > 
+    div > ul > li{
+        padding: 4px 0rem;
+    }
+}

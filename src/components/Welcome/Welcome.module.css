@@ -1,0 +1,40 @@
+.pos_word{
+    position: absolute;
+    top: -1px;
+    left: 31px;
+    font-size: calc(12 * var(--fs_16));
+    letter-spacing: 30px;
+    color: #eeeff4;
+    font-weight: 900;
+}
+
+@media (min-width: 991px) and (max-width: 1117px){
+    .pos_word{
+        font-size: calc(10 * var(--fs_16));
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+    .pos_word{
+        font-size: calc(7.5 * var(--fs_16));
+        top: 65px;
+        left: 15px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+    .pos_word{
+        font-size: calc(3.6 * var(--fs_16));
+        top: 20px;
+        left: 25px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 501px) {
+    .pos_word{
+        font-size: calc(4 * var(--fs_16));
+        top: 20px;
+        left: 20px;
+        letter-spacing: 5px;
+    }
+}

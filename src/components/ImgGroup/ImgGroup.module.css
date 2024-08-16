@@ -1,0 +1,31 @@
+.MDBCard_text{
+    background-color: transparent !important;;
+    text-align: left !important;
+    padding: 25px 35px !important;
+    position: absolute;
+    bottom: 0;
+}
+
+.MDBCard_text,
+.MDBCard_text p{
+    letter-spacing: 3px;
+    font-weight: 500 ;
+    color: #fff;
+}
+
+.featureNO{
+    position: absolute;
+    top: -60px;
+    right: 0px;
+    z-index: 10;
+    color: #fff;
+    font-weight: 900;
+    opacity: .5;
+    font-size: calc( 15 * var(--fs_16) );
+    transition: all .4s;
+}
+
+.featureNO:hover{
+    opacity: 1;
+}
+

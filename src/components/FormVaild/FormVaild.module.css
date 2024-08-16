@@ -1,0 +1,26 @@
+input,textarea{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    border: 0;
+    border-bottom: 3px solid var(--Ligth_black);
+    font-weight: 900;
+    font-size: calc(1.5 * var(--fs_16));
+}
+
+.btnIcon{
+    text-align: end;
+    margin-top: -10px;
+    border: 0;
+}
+
+.btnIcon button{
+    background-color: var(--Ligth_black);
+    color: var(--White);
+}
+
+input:focus, textarea:focus, .btnIcon button:focus
+input:focus-visible, textarea:focus-visible, .btnIcon button:focus-visible{
+    outline: 0 !important;
+    box-shadow: 0;
+}

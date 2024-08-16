@@ -1,0 +1,48 @@
+.hrContact{
+    transform: rotate(180deg) !important;
+    width: 20%;
+    margin-left: 35px;
+}
+
+.h3Contact{
+    font-size: calc( 3.8 * var(--fs_16)) !important;
+    font-weight: 900;
+    margin-left: 30px;
+    padding: 60px 15px 0px 0px;
+    color: var(--Ligth_black);
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .hrContact{
+        transform: rotate(180deg) !important;
+        width: 75%;
+    }
+    
+    .h3Contact{
+        font-size: calc( 4 * var(--fs_16)) !important;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+    .hrContact{
+        transform: rotate(180deg) !important;
+        width: 50%;
+    }
+    
+    .h3Contact{
+        font-size: calc( 2 * var(--fs_16)) !important;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 501px) {
+    .hrContact{
+        transform: rotate(180deg) !important;
+        width: 50%;
+    }
+
+    .h3Contact{
+        font-size: calc( 2 * var(--fs_16)) !important;
+        margin-left: -30px;
+    }
+
+}

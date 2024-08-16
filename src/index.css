@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 100 to 900 */
+
+/* font-family-Spartan {
+font-family: "League Spartan", sans-serif;
+font-optical-sizing: auto;
+font-weight: 100 : 900;
+font-style: normal;
+} */
+
+:root{  
+
+/* Primary */
+  --Ligth_black: #1B1D23;
+  --Light: hsl(229, 24%, 87%);
+
+/* Neutral */
+  --Ligth_gray_blue: #7D828F;
+  --White: #fff;
+  --Ligth_brown: #60636D;
+  --placeholder: #4a5568;
+
+/* Typography */
+  --fs_16: 1rem;
+  --f_family: "League Spartan", sans-serif;
+  --f_weight: 700;
+  --f_style: normal;
+}
+
+body{
+  font-size: var(--fs_16);
+  font-family: var(--f_family);
+  font-style: var(--f_style);
+  font-weight: var(--f_weight);
+  background-color: var(--White);
+  height: 100vh;
+}
+
+::placeholder{
+  font-size: calc(var(--fs_16) * 1.4);
+  color: var(--Ligth_gray_blue);
+  font-weight: 500;
+}
+
+.STDImg{
+  width: 100%;
+  height: auto;
+  object-fit:contain;
+}
+
+.STDImg_card{
+  border-radius: 0 !important;
+  transform: scale(1.001);
+  transition: all .4s;
+}
+
+.STDImg_card--widht{
+  width: 85%;
+  border-radius: 5px !important;
+}
+
+.STDImg_card--transition{
+  transform: scale(1.02) !important;
+  border-radius: 0 !important;
+}
+
+.STDImg_card:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+/* section Carousel */
+#root > div > div > a.carousel-control-next,
+#root > div > div > a.carousel-control-prev{
+  display: none !important;
+}
+
+.carousel-indicators {
+  bottom: -10px;
+  margin: auto!important;
+  background-color: transparent;
+  width: 20% !important;
+}
+
+.carousel-indicators li{
+  padding: 1px!important;
+  margin: 0px 5px 25px 5px!important;
+  width: 100% !important;
+  border-top: none!important;
+  border-bottom: none!important;
+}
+
+.carousel-indicators .active {
+  background-color: var(--White) !important;
+}
+
+/* section welcome */
+.py-75{
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+/* section Contant */
+.py-100{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* Section small team */
+.pl-50{
+  padding-left: 192px;
+}
+
+.text-font{
+  font-size: calc(4.1 * var(--fs_16)) !important;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+/* section featured */
+.px-50{
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+
+.px-75{
+  padding-left: 75px !important;
+  padding-right: 75px !important;
+}
+
+/* Error Page */
+.LookFor-img{
+  width: 100%;
+  margin: auto;
+}

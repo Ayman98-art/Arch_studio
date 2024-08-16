@@ -1,0 +1,246 @@
+/* Home, Contact, About and portofile Page */
+@media (min-width: 991px) and (max-width: 1117px) {
+    .px-75{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .px-50{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    iframe{
+        width: 480px;
+    }
+    .flex_direction{
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+}
+
+/* Home, Contact, About and portofile Page */
+@media (min-width: 767px) and (max-width: 991px) {
+    .px-75{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .px-50{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    iframe{
+        width: 730px;
+        padding: 10px;
+    }
+
+    .flex_direction{
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .flex_directionConDet{
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .dblockNone{
+        display: inline-block !important;
+        letter-spacing: 10px;
+        padding-left: 15px;
+    }
+
+    .ml-40{
+        margin-left: -40px !important;
+    }
+
+    .STDImg_card{
+        width: 450px !important;
+    }
+
+    .flex_column{
+        flex-direction: column;
+    }
+
+    .pl-50{
+        padding-left: 120px;
+    }
+
+    .text-font{
+        font-size: calc(3 * var(--fs_16)) !important;
+    }
+
+    .ScrollToTop{
+        top: 450px;
+    }
+
+    .STDImg_card--widht {
+        width: 95%;
+        margin: auto;
+    }
+
+}
+
+/* Home, Contact, About and portofile Page */
+@media (min-width: 501px) and (max-width: 767px) {
+    .px-75{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .px-50{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    iframe{
+        width: 470px;
+        padding: 10px;
+    }
+
+    .flex_direction{
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .flex_directionConDet{
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .dblockNone{
+        display: inline-block !important;
+        letter-spacing: 10px;
+        padding-left: 15px;
+    }
+
+    .ml-40{
+        margin-left: -40px !important;
+    }
+
+    .STDImg_card{
+        width: 450px !important;
+    }
+
+    .flex_column{
+        flex-direction: column;
+    }
+
+    .pl-50{
+        padding-left:80px;
+    }
+
+    .text-font{
+        font-size: calc( 2 * var(--fs_16)) !important;
+    }
+
+    .ScrollToTop{
+        top: 550px;
+    }
+
+    .STDImg_card--widht {
+        width: 95%;
+        margin: auto;
+    }
+
+    .dinline_block{
+        display: inline-block;
+    }
+
+    .px_sm2{
+        padding-left: 15px;
+    }
+
+    .dNoneSm{
+        display: none;
+    }
+
+    .LookFor-img img{
+        width: 90%;
+    }
+
+}
+
+/* Home, Contact, About and portofile Page */
+@media (min-width: 300px) and (max-width: 501px) {
+    .px-75{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .px-50{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    iframe{
+        width: 335px;
+        padding: 10px;
+    }
+
+    .flex_direction{
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .flex_directionConDet{
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .dblockNone{
+        display: inline-block !important;
+        letter-spacing: 0px;
+    }
+
+    .ml-40{
+        margin-left: -40px !important;
+    }
+
+    .STDImg_card{
+        width: 320px !important;
+    }
+
+    .STDImgNone{
+        display: none;
+    }
+
+    .flex_column{
+        flex-direction: column;
+    }
+
+    .pl-50{
+        padding-left: 55px;
+    }
+
+    .text-font{
+        font-size: calc( 1.5 * var(--fs_16)) !important;
+    }
+
+    .ScrollToTop{
+        top: 550px;
+    }
+
+    .STDImg_card--widht {
+        width: 95%;
+        margin: auto;
+    }
+
+    .dinline_block{
+        display: inline-block;
+    }
+
+    .px_sm2{
+        padding-left: 15px;
+    }
+
+    .dNoneSm{
+        display: none;
+    }
+
+    .LookFor-img img{
+        width: 95%;
+    }
+
+}

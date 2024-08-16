@@ -1,0 +1,35 @@
+.hrHeritage{
+    transform: rotate(180deg) !important;
+    width: 20%;
+    margin-left: 30px;
+}
+
+.Heritage{
+    font-size: calc( 2.7 * var(--fs_16)) !important;
+    font-weight: 900;
+    letter-spacing: 10px;
+    color: var(--Ligth_black);
+    padding-left: 30px;
+}
+
+.pHeritage p{
+    font-size: calc( 1.2 * var(--fs_16)) !important;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+@media (min-width: 300px) and (max-width: 501px) {
+    .hrHeritage{
+        transform: rotate(180deg) !important;
+        width: 50%;
+        margin-left: 5px;
+    }
+    
+    .Heritage{
+        padding-left: 0px;
+    }
+    
+    .pHeritage p{
+        padding-left: 0px;
+    }
+}

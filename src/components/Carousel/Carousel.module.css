@@ -1,0 +1,125 @@
+.pb_75{
+    padding-bottom: 75px;
+}
+
+.imgCaption{
+    display: flex !important;
+    align-items: start !important;
+    flex-direction: column;
+    padding: 0rem 7.5rem 13rem 7.5rem;
+}
+
+.headOne{
+    font-size: calc(3.7 * var(--fs_16));
+    color: var(--White);
+    font-weight: 800;
+}
+
+.paragraf{
+    font-size: calc(1.12 * var(--fs_16)) !important;
+    font-weight: 500;
+    text-align: left;
+    margin-left: -2.9rem;
+    color: var(--White);
+}
+
+.span01{
+    position: absolute;
+    bottom: 0px;
+    left: -150px;
+    color: var(--White);
+    font-weight: 800;
+    background-color: var(--Ligth_gray_blue);
+    opacity: .5;
+    padding: 10px 15px;
+    transition: all .4s;
+}
+
+.span01:hover{
+    background-color: var(--White);
+    color: var(--Ligth_black);
+    cursor: pointer;
+}
+
+@media (min-width: 991px) and (max-width: 1117px) {
+    .imgCaption{
+        padding: 0rem 0rem 10rem 11rem;
+    }
+
+    .headOne{
+        font-size: calc(3 * var(--fs_16));
+    }
+
+    .span01{
+        position: absolute;
+        bottom: 0px;
+        left: -120px;
+        color: var(--White);
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .imgCaption{
+        padding: 0rem 0rem 5rem 7rem;
+    }
+
+    .headOne{
+        font-size: calc(2.5 * var(--fs_16));
+    }
+
+    .paragraf{
+        font-size: var(--fs_16) !important;
+    }
+
+    .span01{
+        position: absolute;
+        bottom: 0px;
+        left: -85px;
+        color: var(--White);
+    }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+    .imgCaption{
+        padding: 0rem 0rem 1rem 4rem;
+    }
+
+    .headOne{
+        font-size: calc( 1.8 * var(--fs_16)) !important;
+    }
+
+    .paragraf{
+        font-size: calc( 0.0 * var(--fs_16)) !important;
+    }
+
+    .span01{
+        position: absolute;
+        bottom: -10px;
+        left: -55px;
+        color: var(--White);
+    }
+}
+
+@media (min-width: 300px) and (max-width: 501px) {
+    .imgCaption{
+        padding: 0rem 0rem 1rem 0rem;
+    }
+
+    .headOne{
+        font-size: calc( 1.5 * var(--fs_16)) !important;
+        padding-left: 25px;
+    }
+
+    .paragraf{
+        font-size: calc( 0.0 * var(--fs_16)) !important;
+    }
+
+    .span01{
+        position: absolute;
+        bottom: -15px;
+        left: -45px;
+        color: var(--White);
+        padding: 5px;
+    }
+
+}

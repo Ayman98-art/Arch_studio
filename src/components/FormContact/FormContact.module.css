@@ -1,0 +1,20 @@
+.h4Contact{
+    font-size: calc( 4 * var(--fs_16)) !important;
+    font-weight: 900;
+    margin-left: 30px;
+    padding: 60px 15px 0px 0px;
+    color: var(--Ligth_black);
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .h4Contact{
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+    .h4Contact{
+        font-size: calc( 2.5 * var(--fs_16)) !important;
+        margin-left: 10px;
+    }
+}

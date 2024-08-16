@@ -1,0 +1,49 @@
+.h5Office{
+    font-size: calc( 2.8 * var(--fs_16)) !important;
+    color: var(--Ligth_black);
+    font-weight: 800;
+}
+
+.pAOffice{
+    padding: 10px 0px 30px 0px;
+}
+
+.pAOffice p{
+    padding: 0px !important;
+}
+
+.pAOffice p a{
+    font-size: calc(1.01 * var(--fs_16)) !important;
+    color: var(--Ligth_gray_blue);
+}
+
+.ViewOffice{
+    display: flex;
+    align-items: center;
+    padding: 0px !important;
+    font-weight: 800;
+    color: var(--Ligth_black);
+    transition: text-decoration .4s;
+}
+
+.ViewOffice a{
+    font-size: calc(1.2 * var(--fs_16)) !important;
+    color: var(--Ligth_black);
+}
+
+.ViewOffice i{
+    font-size: calc(1.2 * var(--fs_16)) !important;
+    padding-left: 20px !important;
+}
+
+.ViewOffice:hover{
+    text-decoration: underline;
+}
+
+@media (min-width: 501px) and (max-width: 767px){
+    .h5Office{
+        font-size: calc( 1.9 * var(--fs_16)) !important;
+        color: var(--Ligth_black);
+        font-weight: 800;
+    }
+}
