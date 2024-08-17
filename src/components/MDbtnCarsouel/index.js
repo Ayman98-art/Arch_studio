@@ -3,12 +3,12 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Style from './LogoImg.module.css';
 
-function MDbtnCarsouel({btnName}) {
+function MDbtnCarsouel({btnName, btnLink='/portfolio'}) {
 return (
 <>
 <MDBBtn className={Style.btnHero}>
     <div className='d-flex align-items-center'>
-        <Link className={Style.linkbtnHero} to={'/portfolio'}>
+        <Link className={Style.linkbtnHero} to={btnLink}>
             {btnName} 
         </Link>
         <MDBIcon className={Style.icon} 
